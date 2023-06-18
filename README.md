@@ -16,6 +16,8 @@ JWT
 ### Запуск проекта в dev-режиме
 
 - Установите и активируйте виртуальное окружение
+python -m venv venv
+source venv/Scripts/activate
 
 - Установите зависимости из файла requirements.txt
 
@@ -25,5 +27,5 @@ pip install -r requirements.txt
 
 python manage.py runserver
 
-Авторы
+Автор
 Светлана Шатунова
